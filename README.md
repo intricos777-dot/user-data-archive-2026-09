@@ -42,7 +42,7 @@ see `IDENTITY.md`). Pushed to GitHub through Hermes.CLI (`hermes sync`).
   - a GitHub fine-grained PAT pasted into an opencode session (2026-09-26)
   - the old (already-rotated) lia inbox token that had leaked into test code
   - other token-shaped strings caught by the archive-wide scan
-- Synthetic scan fixtures (`AKIAIOSFODNN7EXAMPLE`, `xoxb-1234567890-…`,
+- Synthetic scan fixtures (`[AWS_KEY_REDACTED:1a5d44a2]`, `[SLACK_REDACTED:2b763169]-…`,
   `eyJhbGciOi…abcdefghijklmnop`) were left — they are hermes' own test strings,
   not real secrets.
 
